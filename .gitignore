@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test / lint cache
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Local temporary files
+*.tmp
+*.log
+test.txt
+baseline.json
+demo/
+
+# Generated example baseline
+examples/baseline.json
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
